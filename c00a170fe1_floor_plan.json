@@ -1,0 +1,336 @@
+{
+  "scan_id": "c00a170fe1",
+  "capture_timestamp": 65575.597600791,
+  "pipeline_version": "1.3.0",
+  "tier": "lidar",
+  "floor_area_m2": 18.863,
+  "floor_area_ci_m2": 0.472,
+  "ceiling_height_m": 1.562,
+  "ceiling_height_ci_m": 0.015,
+  "walls": [
+    {
+      "id": 1,
+      "start": [
+        -6.612,
+        1.19
+      ],
+      "end": [
+        -3.059,
+        2.662
+      ],
+      "length_m": 3.846,
+      "confidence_interval_m": 0.0195
+    },
+    {
+      "id": 2,
+      "start": [
+        -4.374,
+        -0.263
+      ],
+      "end": [
+        -2.023,
+        2.091
+      ],
+      "length_m": 3.326,
+      "confidence_interval_m": 0.018
+    },
+    {
+      "id": 3,
+      "start": [
+        -0.554,
+        -1.469
+      ],
+      "end": [
+        2.149,
+        -0.349
+      ],
+      "length_m": 2.926,
+      "confidence_interval_m": 0.0168
+    },
+    {
+      "id": 4,
+      "start": [
+        -2.869,
+        2.72
+      ],
+      "end": [
+        -0.493,
+        3.703
+      ],
+      "length_m": 2.571,
+      "confidence_interval_m": 0.0157
+    },
+    {
+      "id": 5,
+      "start": [
+        2.6,
+        -0.052
+      ],
+      "end": [
+        1.73,
+        2.048
+      ],
+      "length_m": 2.273,
+      "confidence_interval_m": 0.0148
+    },
+    {
+      "id": 6,
+      "start": [
+        1.309,
+        0.553
+      ],
+      "end": [
+        0.566,
+        2.347
+      ],
+      "length_m": 1.942,
+      "confidence_interval_m": 0.0138
+    },
+    {
+      "id": 7,
+      "start": [
+        -1.683,
+        1.19
+      ],
+      "end": [
+        -1.103,
+        2.873
+      ],
+      "length_m": 1.78,
+      "confidence_interval_m": 0.0133
+    },
+    {
+      "id": 8,
+      "start": [
+        -0.792,
+        1.752
+      ],
+      "end": [
+        0.846,
+        2.431
+      ],
+      "length_m": 1.774,
+      "confidence_interval_m": 0.0133
+    },
+    {
+      "id": 9,
+      "start": [
+        -1.315,
+        2.858
+      ],
+      "end": [
+        -1.992,
+        4.492
+      ],
+      "length_m": 1.769,
+      "confidence_interval_m": 0.0133
+    },
+    {
+      "id": 10,
+      "start": [
+        -1.163,
+        2.504
+      ],
+      "end": [
+        0.277,
+        3.101
+      ],
+      "length_m": 1.558,
+      "confidence_interval_m": 0.0127
+    },
+    {
+      "id": 11,
+      "start": [
+        -4.184,
+        0.388
+      ],
+      "end": [
+        -3.204,
+        1.37
+      ],
+      "length_m": 1.387,
+      "confidence_interval_m": 0.0122
+    },
+    {
+      "id": 12,
+      "start": [
+        -0.463,
+        4.115
+      ],
+      "end": [
+        0.497,
+        5.077
+      ],
+      "length_m": 1.359,
+      "confidence_interval_m": 0.0121
+    },
+    {
+      "id": 13,
+      "start": [
+        -5.94,
+        0.201
+      ],
+      "end": [
+        -4.748,
+        0.695
+      ],
+      "length_m": 1.291,
+      "confidence_interval_m": 0.0119
+    },
+    {
+      "id": 14,
+      "start": [
+        0.703,
+        4.678
+      ],
+      "end": [
+        0.331,
+        5.575
+      ],
+      "length_m": 0.971,
+      "confidence_interval_m": 0.0109
+    },
+    {
+      "id": 15,
+      "start": [
+        -0.503,
+        4.155
+      ],
+      "end": [
+        -0.103,
+        5.017
+      ],
+      "length_m": 0.95,
+      "confidence_interval_m": 0.0108
+    },
+    {
+      "id": 16,
+      "start": [
+        -0.631,
+        5.156
+      ],
+      "end": [
+        0.245,
+        5.519
+      ],
+      "length_m": 0.949,
+      "confidence_interval_m": 0.0108
+    },
+    {
+      "id": 17,
+      "start": [
+        -1.363,
+        2.252
+      ],
+      "end": [
+        -0.683,
+        2.793
+      ],
+      "length_m": 0.869,
+      "confidence_interval_m": 0.0106
+    },
+    {
+      "id": 18,
+      "start": [
+        -1.443,
+        4.175
+      ],
+      "end": [
+        -1.383,
+        3.574
+      ],
+      "length_m": 0.604,
+      "confidence_interval_m": 0.0098
+    }
+  ],
+  "openings": [],
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Room 1",
+      "floor_area_m2": 5.09,
+      "floor_area_ci_m2": 0.15,
+      "associated_wall_ids": [
+        1,
+        11,
+        13
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Room 2",
+      "floor_area_m2": 2.11,
+      "floor_area_ci_m2": 0.06,
+      "associated_wall_ids": [
+        4,
+        7,
+        12,
+        15,
+        17
+      ]
+    }
+  ],
+  "drift_correction": {
+    "drift_detected": 0,
+    "accumulated_drift_m": 3.1791,
+    "status": "open_trajectory"
+  },
+  "damage_regions": [],
+  "concealed_damage_flags": [
+    {
+      "flag_id": "FLAG-01",
+      "rule": "RULE-WETWALL-PLUMBING",
+      "target": "Interior partition wet-wall boundary",
+      "risk_type": "Moisture migration & pipe joint integrity",
+      "action_required": "Inspect thermal signature / non-invasive acoustic check"
+    },
+    {
+      "flag_id": "FLAG-02",
+      "rule": "RULE-PERIMETER-ENVELOPE",
+      "target": "Exterior wall baseboard perimeter",
+      "risk_type": "Thermal bridging and ground vapor seal",
+      "action_required": "Verify moisture barrier along perimeter foundation"
+    }
+  ],
+  "scope_line_items": [
+    {
+      "line_item": 1,
+      "trade": "Drywall & Framing",
+      "description": "5/8-inch Type X Drywall - Wall Surface Area",
+      "quantity": 50.2,
+      "unit": "m\u00b2",
+      "confidence_interval": 0.05
+    },
+    {
+      "line_item": 2,
+      "trade": "Carpentry & Trim",
+      "description": "Baseboard Moulding 3-1/4 inch - Room Perimeter",
+      "quantity": 32.15,
+      "unit": "linear_m",
+      "confidence_interval": 0.03
+    },
+    {
+      "line_item": 3,
+      "trade": "Finishes & Paint",
+      "description": "Interior Primer & Premium Acrylic Paint (2 coats)",
+      "quantity": 69.06,
+      "unit": "m\u00b2",
+      "confidence_interval": 0.05
+    },
+    {
+      "line_item": 4,
+      "trade": "Flooring",
+      "description": "Underlayment & Surface Flooring Replacement",
+      "quantity": 18.86,
+      "unit": "m\u00b2",
+      "confidence_interval": 0.025
+    }
+  ],
+  "metadata": {
+    "voxel_size_m": 0.03,
+    "frame_stride": 6,
+    "min_confidence": 1,
+    "max_depth_m": 8.0,
+    "output_resolution_m": 0.02
+  }
+}
